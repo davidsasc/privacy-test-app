@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'org.example.privacytest'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "org.example.privacytest"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0.0"
+    }
+}
